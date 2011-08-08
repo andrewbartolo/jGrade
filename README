@@ -1,0 +1,49 @@
+jGrade Copyright (c) 2011 Andrew Bartolo.
+Released under GNU GPL v. 1.3.
+
+README
+------------------------------------------------------------------------
+jGrade
+An Intuitive Java-Based Gradebook Application
+2/25/2011
+Author: Andrew Bartolo
+------------------------------------------------------------------------
+This program is intended to calculate grades for the user.  After entering
+student names, grades, grade weights, etc., the user is provided with
+calculated averages by class, student, and grade.  Grade maximums and
+minimums within the class are also displayed.
+------------------------------------------------------------------------
+USER INSTRUCTIONS:
+------------------------------------------------------------------------
+This is a command-line interface (CLI) program.  To run the program,
+place the .jar file on your desktop.  Then, open Windows command prompt
+by going to Start -> All Programs -> Accessories -> Command Prompt.  Type
+"cd Desktop" into the command prompt.  Then, type "java -jar jGrade.jar".
+The program will now run in the command prompt window.  You may also run
+the program from the directory of your choosing by navigating to that
+directory in Windows command prompt, and then typing "java -jar jGrade.jar"
+------------------------------------------------------------------------
+
+Java Runtime Environment (JRE) is required to run the .jar file archive
+of this program.  JRE may be downloaded from oracle.com.
+
+If a .dat file of the same name already exists in the same directory
+when creating a new file, the existing .dat file will be replaced
+with the new .dat file.
+
+Filepaths must be in all lowercase letters.  Filepaths must also include
+the .dat file extension.  For example, "c:\users\andrew\datafile.dat"
+(without quotes) is a valid filepath.
+
+Percentages must be entered as integers, not decimals.  No percentage
+signs.
+
+Any plaintext-supporting text editor may be used to view the .dat files
+output by jGrade.
+
+Zeroes in the .dat file serve as placeholders.  jGrade will manage these
+zeroes automatically.
+
+For additional help on running the jGrade.jar file on your platform,
+please visit http://download.oracle.com/javase/tutorial/deployment/jar/
+run.html.
